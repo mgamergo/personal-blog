@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body {
+    background-color: #FFEAEC;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: #301A4B;
+    font-family: 'Josefin Sans';
+    font-size: 2.2rem;
+}
+
+span {
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    color:transparent;
+    background-image: linear-gradient(to right, #ff424283, #ffe34785);
+    background-clip: text;
+}
+
+textarea {
+    width: auto;
+    background-color: #83a7ae42;
+}
+
+textarea::placeholder {
+    color:black;
+    font-family: 'Josefin Sans';
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    margin: 1rem;
+    padding: 1rem
+}
+
+.welcome-heading {
+    text-align: center;
+    width: 100%;
+}
+
+#userInput {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#saveButton {
+    font-family: "Josefin Sans";
+    transition: color .4 ease-in-out;
+    background-color: rgba(220, 22, 220, 0.814);
+
+}
+
+#saveButton:hover {
+    color:#161616;
+    background-color: rgba(255, 255, 255, 0.395);
+    border-color: #161616;
+}
+
+#clearButton {
+    font-family: "Josefin Sans";
+    transition: color .4 ease-in-out;
+
+}
+
+#clearButton:hover {
+    color:#161616;
+    background-color: rgba(255, 255, 255, 0.395);
+    border-color: #161616;
+}
+
+#clearAllButton {
+    font-family: "Josefin Sans";
+    transition: color .4 ease-in-out;
+
+}
+
+#clearAllButton:hover {
+    color:#161616;
+    background-color: rgba(255, 255, 255, 0.395);
+    border-color: #161616;
+}
+
+.second-section-heading {
+    text-decoration: none;
+    transition: text-decoration .4s ease;
+}
+
+.second-section-heading:hover {
+    text-decoration: underline;
+}
+
+.learning-item {
+    background-color: rgba(76, 0, 130, 0.17);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    height: auto;
+}
+
+#date, #description {
+    color: #301A4B;
+    font-family: 'Josefin Sans';
+    font-size: 1rem;
+}

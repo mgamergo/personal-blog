@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b868a1672f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <h1 class="welcome-heading pb-2">Welcome to my <span class="gradient">Personal Blog</span> where I document my Learnings.</h1>
+      <div class="user-input-container d-flex flex-column justify-content-center pb-4">
+        <textarea name="user-input" id="userInput" cols="60" rows="10" placeholder="What did you learn today?"></textarea>
+        <div class = "button-container">
+          <div class="button-sub-container">
+            <button class = "btn btn-primary" id = "saveButton">Save</button>
+            <button class="btn btn-primary" id="clearButton">Clear</button>
+            <button class="btn btn-success" id="clearAllButton">Reset</button>
+          </div>
+        </div>
+      </div>
+      <h2 class = 'second-section-heading'>Learning History</h2>
+      <div class="learning-history-container" id = "learningHistoryContainer"></div>
+    </div>
+    <div class="learning-items-container pb-3 m-3" id = 'learningItemsContainer'>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <script src="code.js"></script>
+</body>
+    
+</html>
